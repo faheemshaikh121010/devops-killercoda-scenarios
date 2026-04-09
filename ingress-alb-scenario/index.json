@@ -31,9 +31,26 @@
     ],
     "finish": {
       "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {
+          "file": "manifests/deployment.yaml",
+          "target": "/root/manifests/deployment.yaml"
+        },
+        {
+          "file": "manifests/service.yaml",
+          "target": "/root/manifests/service.yaml"
+        },
+        {
+          "file": "manifests/ingress.yaml",
+          "target": "/root/manifests/ingress.yaml"
+        }
+      ]
     }
   },
   "backend": {
-    "imageid": "kubernetes-kubeadm-1node-rapid"
+    "imageid": "kubernetes-kubeadm-1node-rapid",
+    "init": "mkdir -p /root/manifests && chmod +x step*/verify.sh"
   }
 }
