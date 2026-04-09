@@ -1,0 +1,32 @@
+{
+  "title": "Kubernetes Ingress with AWS ALB Controller",
+  "description": "Deploy an application and expose it using Kubernetes Ingress with NodePort service.",
+  "difficulty": "intermediate",
+  "time": "20 minutes",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Step 1: Create Deployment",
+        "text": "steps/step1.md"
+      },
+      {
+        "title": "Step 2: Create Service",
+        "text": "steps/step2.md"
+      },
+      {
+        "title": "Step 3: Create Ingress",
+        "text": "steps/step3.md"
+      },
+      {
+        "title": "Step 4: Verify Setup",
+        "text": "steps/step4.md"
+      }
+    ]
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node-rapid"
+  }
+}
