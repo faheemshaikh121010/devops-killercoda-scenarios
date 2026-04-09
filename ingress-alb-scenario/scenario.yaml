@@ -12,7 +12,7 @@ intro:
   file: intro.md
 
 backend:
-  image: killercoda/kubernetes:1.27
+  imageid: kubernetes-kubeadm-1node
 
 steps:
 - title: "Step 1: Create Deployment"
