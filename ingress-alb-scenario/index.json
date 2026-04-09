@@ -33,20 +33,20 @@
       "text": "finish.md"
     },
     "assets": {
-      "host01": [
-        {
-          "file": "manifests/deployment.yaml",
-          "target": "/root/manifests/deployment.yaml"
-        },
-        {
-          "file": "manifests/service.yaml",
-          "target": "/root/manifests/service.yaml"
-        },
-        {
-          "file": "manifests/ingress.yaml",
-          "target": "/root/manifests/ingress.yaml"
-        }
-      ]
+  "host01": [
+    {
+      "file": "ingress-alb-scenario/manifests/deployment.yaml",
+      "target": "/root/manifests/deployment.yaml"
+    },
+    {
+      "file": "ingress-alb-scenario/manifests/service.yaml",
+      "target": "/root/manifests/service.yaml"
+    },
+    {
+      "file": "ingress-alb-scenario/manifests/ingress.yaml",
+      "target": "/root/manifests/ingress.yaml"
+    }
+    ]
     }
   },
   "backend": {
