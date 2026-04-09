@@ -26,3 +26,4 @@ def create_folder_structure(base_path):
 if __name__ == "__main__":
     base_path = "devops-killercoda-scenarios"
     create_folder_structure(base_path)  
+    #new
