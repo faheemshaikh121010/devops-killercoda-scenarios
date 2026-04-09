@@ -46,8 +46,8 @@
       "file": "ingress-alb-scenario/manifests/ingress.yaml",
       "target": "/root/manifests/ingress.yaml"
     }
-  ]
-}
+    ]
+    }
   },
   "backend": {
   "imageid": "kubernetes-kubeadm-1node-rapid",
