@@ -53,3 +53,4 @@
   "imageid": "kubernetes-kubeadm-1node-rapid",
   "init": "mkdir -p /root/manifests && chmod +x ingress-alb-scenario/step*/verify.sh"
 }
+}
