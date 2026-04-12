@@ -5,7 +5,8 @@
   "time": "20 minutes",
   "details": {
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "courseData": "setup.sh"
     },
     "steps": [
       {
@@ -31,26 +32,9 @@
     ],
     "finish": {
       "text": "finish.md"
-    },
-    "assets": {
-  "host01": [
-    {
-      "file": "ingress-alb-scenario/manifests/deployment.yaml",
-      "target": "/root/manifests/deployment.yaml"
-    },
-    {
-      "file": "ingress-alb-scenario/manifests/service.yaml",
-      "target": "/root/manifests/service.yaml"
-    },
-    {
-      "file": "ingress-alb-scenario/manifests/ingress.yaml",
-      "target": "/root/manifests/ingress.yaml"
-    }
-    ]
     }
   },
   "backend": {
-  "imageid": "kubernetes-kubeadm-1node-rapid",
-  "init": "mkdir -p /root/manifests && chmod +x ingress-alb-scenario/step*/verify.sh"
-}
+    "imageid": "kubernetes-kubeadm-1node-rapid"
+  }
 }
